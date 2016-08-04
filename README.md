@@ -11,7 +11,7 @@ docker run \
     -p 9300:9300 \
     -v conan_server:/var/lib/conan \
     --name conan_server \
-    dkruger/conan-server:latest
+    dwerner/conan-server:latest
 ```
 
 The configure the server by editting the `.conan_server/server.conf`
